@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/d3b61aca54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>ToDo App</title>
+</head>
+<body>
+    <h1 style="text-align: center; font-family: 'Poppins', sans-serif;">Todo List</h1>
+    <h1>Add Todo</h1>
+    <span><button onclick="addtodo()"><i class="fa-solid fa-circle-plus"></i></button></span>
+
+    <span><button onclick="closetodo()"><i class="fa-solid fa-xmark"></i></i></button></span>
+    <div id="addtodo">
+        <input id="userip" placeholder="Enter Todo Title" type="text">
+        <button onclick="add()">Add</button>
+    </div>
+    <div  style="font-family: 'Poppins', sans-serif;" id="cardcontainer">
+        <p1 id="status">No Todos</p1>
+     
+
+    
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
